@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/encriptador-style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Caesar+Dressing&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./img/logo.png">
+    </header>
+    <h1>Encriptador de texto</h1>
+    <div class="contenedorPrincipal">
+        <div class="contenedorCandado">
+            <img id="imgCandado" src="./img/candado.png" alt="img candado">
+            <textarea type="text" class="estiloInputs" id="textoDecodificado"
+                placeholder="Ingrese el texto aqui"></textarea>
+            <img id="icoCopiarcandado" class="interaccionBotones" onclick="copiar(textoDecodificado)"
+                src="./img/icoCopiar.png" alt="icoCopiar">
+            <img id="icoBorrarCandado" class="interaccionBotones" onclick="borrar(textoDecodificado)"
+                src="./img/icoBorrar.png" alt="icoBorrar">
+            <button onclick="encriptar()" id="botonEncriptar" class="botonesEstilo">Encriptar</button>
+            <button onclick="desEncriptar()" id="botonDesencriptar" class="botonesEstilo">Desencriptar</button>
+        </div>
+        <div class="contenedorCerraduraDigital">
+            <img id="imgCerraduraDigital" src="./img/cerradura.png" alt="img cerradura">
+            <textarea type="text" class="estiloInputs" id="textoCodificado" placeholder=""></textarea>
+            <img id="icoCopiarcerradura" class="interaccionBotones" onclick="copiar(textoCodificado)"
+                src="./img/icoCopiar.png" alt="icoCopiar">
+            <img id="icoBorrarCerradura" class="interaccionBotones" onclick="ocultarTextarea(textoCodificado)"
+                src="./img/icoBorrar.png" alt="icoBorrar">
+        </div>
+    </div>
+    <footer>
+        <div class="RedesSociales">
+            <a href="https://www.linkedin.com/in/jordan-covilla/"><img src="./img/linkedin.png"
+                    alt="Linkedin Link"></a>
+            <a href="https://github.com/JordanCovilla"><img src="./img/github.png" alt="GitHub Link"></a>
+        </div>
+        <p>Desarrollado por Jordan Covilla</p>
+    </footer>
+    <script src="js/Decodificador.js"></script>
+</body>
+
+</html>

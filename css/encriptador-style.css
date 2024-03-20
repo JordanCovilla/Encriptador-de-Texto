@@ -1,0 +1,217 @@
+header {
+    box-sizing: border-box;
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding: 5px;
+    color: black;
+    margin: 0px 0px 15px;
+}
+
+.logo {
+    width: 60px;
+    padding: 5px;
+}
+
+body {
+    background-image: url(../img/encriptador-wallpaper.jpg);
+}
+
+h1 {
+    display: block;
+    font-size: 70px;
+    width: 100%;
+    font-family: "Caesar Dressing", system-ui;
+    color: white;
+    text-align: center;
+    margin: 20px 0px 40px;
+    opacity: 100%;
+}
+
+/* Objetos dentro del contendor principal */
+.contenedorPrincipal {
+    display: block;
+    width: 100%;
+    height: 600px;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+
+.contenedorCandado {
+    display: inline-block;
+    position: relative;
+    top: 0px;
+    width: 390px;
+    height: 736px;
+    margin: 0px 100px 0px 100px;
+    /* border: 1px solid white; */
+}
+
+.contenedorCerraduraDigital {
+    display: inline-block;
+    position: relative;
+    width: 386px;
+    height: 736px;
+    box-sizing: border-box;
+    margin: 0px 100px 0px 100px;
+    /* border: 1px white solid; */
+}
+
+.estiloInputs {
+    font-size: 30px;
+    color: #dbe2e7;
+    text-align: center;
+    border: 10px solid black;
+    border-radius: 5%;
+    background: #37393b;
+    word-wrap: break-word;
+}
+
+.estiloInputs::placeholder {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* sub objetos contenedorCandado */
+#imgCandado {
+    display: inline-block;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#textoDecodificado {
+    /* estilo en contendor principal .estiloInputs */
+    display: inline-block;
+    width: 256px;
+    height: 260px;
+    position: absolute;
+    top: 200px;
+    left: 22px;
+}
+
+#icoCopiarcandado {
+    display: block;
+    position: relative;
+    top: 200px;
+    left: 330px;
+}
+
+#icoBorrarCandado {
+    display: block;
+    position: relative;
+    top: 350px;
+    left: 330px;
+}
+
+/* Botones */
+.botonesEstilo {
+    display: inline-block;
+    width: 160px;
+    height: 64px;
+    color: white;
+    background: #37393b;
+    border: 6px solid black;
+    border-radius: 10%;
+    font-size: 20px;
+    font-family: "Caesar Dressing", system-ui;
+    position: absolute;
+    top: 530px;
+}
+
+button:hover {
+    background: #006691;
+}
+
+button:active {
+    background: #37393b;
+}
+
+#botonEncriptar {
+    position: absolute;
+    left: 0px;
+}
+
+#botonDesencriptar {
+    position: absolute;
+    left: 160px;
+}
+
+/* sub objetos contenedorCerraduraDigital */
+#imgCerraduraDigital {
+    display: inline-block;
+    height: 322px;
+    position: absolute;
+    top: 180px;
+    left: 0px;
+    box-sizing: border-box;
+}
+
+#textoCodificado {
+    /* estilo en contendor principal .estiloInputs */
+    visibility: hidden;
+    display: inline-block;
+    width: 250px;
+    height: 240px;
+    position: absolute;
+    top: 210px;
+    left: 24px;
+}
+
+#icoCopiarcerradura {
+    visibility: hidden;
+    display: block;
+    position: relative;
+    top: 210px;
+    left: 328px;
+}
+
+#icoBorrarCerradura {
+    visibility: hidden;
+    display: block;
+    position: relative;
+    top: 350px;
+    left: 328px;
+}
+
+.interaccionBotones {
+    opacity: 70%;
+}
+
+.interaccionBotones:hover {
+    opacity: 100%;
+}
+
+.interaccionBotones:active {
+    opacity: 70%;
+}
+
+/* FOOTER */
+footer {
+    display: block;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    bottom: 0%;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: "Caesar Dressing", system-ui;
+    font-size: small;
+    text-align: center;
+    background: #006691;
+}
+
+footer img {
+    box-sizing: border-box;
+    height: 30px;
+    margin: 0px 0px 5px;
+}
+
+.RedesSociales {
+    display: block;
+}
