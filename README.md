@@ -14,3 +14,5 @@ Con una interfaz intuitiva y fácil de usar, nuestro encriptador te permite cifr
 ¿Estás listo para llevar tu seguridad al siguiente nivel? ¡Únete a la revolución de la privacidad con nuestro encriptador de texto hoy mismo!
 
 🔐 Protege tus secretos. Encripta con confianza. ¡Experimenta la tranquilidad hoy! 🔐
+
+#challengeonecodificador6
