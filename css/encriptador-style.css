@@ -54,8 +54,9 @@ h1 {
     display: inline-block;
     position: relative;
     width: 386px;
-    height: 600px;
+    height: 582px;
     box-sizing: border-box;
+    vertical-align: top;
     margin: 0px 50px 0px 50px;
     /* border: 1px white solid; */
 }
